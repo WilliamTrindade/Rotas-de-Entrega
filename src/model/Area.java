@@ -9,4 +9,23 @@ public class Area {
     private Funcionario colaborador; 
     
     //métodos
+    public void setNome(String nome){
+        this.nome = nome;
+    }
+    public void setEntregas(ArrayList<Rota> entregas){
+        this.entregas = entregas;
+    }   
+    public void setColaborador(Funcionario colaborador){
+        this.colaborador = colaborador;
+    }
+    
+    public String getNome(){
+        return this.nome;
+    }
+    public ArrayList<Rota> getEntregas(){
+        return entregas;
+    }
+    public Funcionario getColaborador(){
+        return colaborador;
+    }
 }
