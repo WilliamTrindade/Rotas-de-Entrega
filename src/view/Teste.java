@@ -37,12 +37,17 @@ public class Teste {
         //FUNCIONARIOS
         //1
         Funcionario f1 = new Funcionario();
-        f1.setNome("Juriscovaldo");
+        f1.setNome("Joaoz");
         f1.setSalario(1000.22);
         //2
         Funcionario f2 = new Funcionario();
-        f1.setNome("Jonas");
-        f1.setSalario(2222.22);
+        f2.setNome("Jonas");
+        f2.setSalario(2222.22);
+        
+        //3
+        Funcionario f3 = new Funcionario();
+        f3.setNome("Lucas");
+        f3.setSalario(2222.22);
         
         //LISTA DE CLIENTES
         //1
@@ -63,21 +68,18 @@ public class Teste {
         //2
         Rota r2 = new Rota();
         r2.setNome("Rota 02");
-        r2.setEntregador(f2);
+        r2.setEntregador(f3);
         r2.setPontosEntrega(lc2);
-        
-        //LISTA DE ROTAS
-        //1
-        ArrayList<Rota> lr1 = new ArrayList();
-        lr1.add(r1);
-        lr1.add(r2);
-        
+
         //AREAS
         //1
         Area a1 = new Area();
         a1.setNome("Area 01");
-        a1.setEntregas(lr1);
+        a1.adicionarRota(r1);
+        a1.adicionarRota(r2);
         a1.setColaborador(f2);
         
+        a1.imprimeArea(a1);
+   
     }
 }
