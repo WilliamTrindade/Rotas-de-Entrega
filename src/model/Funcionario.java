@@ -3,20 +3,20 @@ package model;
 public class Funcionario {
     //atributos
     private String nome;
-    private Float salario;
+    private Double salario;
     
     //métodos
     public void setNome(String nome){
         this.nome = nome;
     }
-    public void setSalario(Float salario){
+    public void setSalario(Double salario){
         this.salario = salario;
     }
     
     public String getNome(){
         return this.nome;
     }
-    public Float getSalario(){
+    public Double getSalario(){
         return this.salario;
     }
 }

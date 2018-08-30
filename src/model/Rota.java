@@ -15,7 +15,7 @@ public class Rota {
     public void setPontosEntrega(ArrayList<Cliente> pontosEntrega){
         this.pontosEntrega = pontosEntrega;
     }
-    public void setFuncionario(Funcionario entregador){
+    public void setEntregador(Funcionario entregador){
         this.entregador = entregador;
     }
     
