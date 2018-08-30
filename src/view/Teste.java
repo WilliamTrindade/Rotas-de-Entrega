@@ -73,9 +73,11 @@ public class Teste {
         lr1.add(r2);
         
         //AREAS
+        //1
         Area a1 = new Area();
         a1.setNome("Area 01");
         a1.setEntregas(lr1);
         a1.setColaborador(f2);
+        
     }
 }
