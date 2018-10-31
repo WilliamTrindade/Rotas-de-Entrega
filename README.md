@@ -1,2 +1,2 @@
 # Rotas-de-Entrega
-Projeto de rotas de entrega para clientes
+Projeto da disciplina de POO
